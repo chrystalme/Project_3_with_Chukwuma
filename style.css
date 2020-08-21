@@ -10,7 +10,7 @@ body {
     font-size: 16px;
     line-height: 1.4;
     color: #fff;
-    margin: 0;
+    margin: 40px auto 0 auto;
     max-width: 50%;
     align-content: center;
 }
@@ -46,6 +46,7 @@ p {
 form{
     background: rgba(27, 27, 50, 0.8);
     border-radius: 5px;
+    max-width: 100%;
 }
 label{
     display: flex;
@@ -117,11 +118,8 @@ input[type=number]{
 }
 
 .container {
-    align-content: center;
     width: 100%;
-    margin: 50px auto 0 auto;
-    padding-right: 400px;
-    padding-left: 400px;
+    margin: auto;
 }
 
 .header {
@@ -177,6 +175,7 @@ input[type=number]{
 @media(min-width:768px){
 .container{
     max-width: 720px;
+    margin: auto;
 
 }
 }
