@@ -52,8 +52,20 @@ label{
     align-items: center;
     font-size: medium;
     margin-bottom: 8px;
+    font-weight: 400;
+}
+
+button {
+    border: none;
 }
 input, button, select, textarea{
+    border-radius: 4px solid;
+    cursor: text;
+    height: 38px;
+    letter-spacing: normal;
+    line-height: 25px;
+    margin: 0;
+    padding: 6,12px;
 
 }
 form{
@@ -83,10 +95,32 @@ form{
 .text-center {
     text-align: center;
 }
+.input-radio,.input-checkbox {
+    display: inline;
+    margin-right: 10px;
+    min-height: 20px;
+    min-width: 20px;
+}
+.input-textarea{
+    min-height: 120px;
+    width: 100%;
+    padding: 10px;
+    resize: vertical;
+}
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background: #37AF65;
+    color: rgb(228, 225, 225);
+    border-radius: 2px;
+
+}
 
 .form-group{
-    margin: 0 auto 24px auto;
-    padding: 5px;
+    margin: 0 auto 15px auto;
+    padding: 15px;
+
 }
 .form-control{
     display: block;
